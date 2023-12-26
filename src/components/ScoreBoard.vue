@@ -63,28 +63,28 @@ export default {
         {
           id: 5,
           fecha_tested: "2021-02-24T21:47:35.390546-03:00",
-          nombre: "Cargando...",
+          nombre: "Loading...",
           asertividad: -3,
           emotividad: 5,
         },
         {
           id: 3,
           fecha_tested: "2016-08-02T17:01:48.627203-03:00",
-          nombre: "Cargando...",
+          nombre: "Loading...",
           asertividad: 1,
           emotividad: 5,
         },
         {
           id: 2,
           fecha_tested: "2018-03-10T16:04:55.155035-03:00",
-          nombre: "Cargando...",
+          nombre: "Loading...",
           asertividad: 1,
           emotividad: -5,
         },
         {
           id: 1,
           fecha_tested: "2020-03-24T16:02:20.887012-03:00",
-          nombre: "Cargando...",
+          nombre: "Loading...",
           asertividad: -1,
           emotividad: -4,
         },
@@ -96,11 +96,11 @@ export default {
       let playerStyle = "";
       asertividad > 0
         ? emotividad > 0
-          ? (playerStyle = "expresivo")
-          : (playerStyle = "emprendedor")
+          ? (playerStyle = "expressive")
+          : (playerStyle = "driver")
         : emotividad > 0
-        ? (playerStyle = "afable")
-        : (playerStyle = "analitico");
+        ? (playerStyle = "amiable")
+        : (playerStyle = "analytical");
       return playerStyle;
     },
     lapso(fecha) {
@@ -119,19 +119,19 @@ export default {
 </script>
 
 <style>
-.expresivo {
+.expressive {
   background: #f0ad4e;
 }
 
-.emprendedor {
+.driver {
   background: #d9534f;
 }
 
-.analitico {
+.analytical {
   background: #5bc0de;
 }
 
-.afable {
+.amiable {
   background: #5cb85c;
 }
 
