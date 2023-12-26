@@ -90,9 +90,9 @@
         </form>
       </article>
       <article v-else>
-        <h2>
+        <h3>
           {{ question.title }}
-        </h2>
+        </h3>
         <form>
           <p class="mt-50">
             <label>
