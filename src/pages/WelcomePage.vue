@@ -5,23 +5,22 @@
         <section v-if="!resultsScreen">
           <h1 class="mb-0">Know your Social Style!</h1>
           <p class="message mt-1 fsize-large">
-            <span title="Integrador"> Afable </span> -
-            <span title="Propulsor"> Emprendedor </span> - Analítico - Expresivo
+            Analytical - Expressive - Driver - Amiable
           </p>
           <i class="large material-icons">fingerprint</i>
         </section>
         <section v-else>
-          <h1 class="mb-0">¡Eres {{ playerStyle }}!</h1>
+          <h1 class="mb-0">You are {{ playerStyle }}!</h1>
           <h5>{{ estilos[playerStyle].brief }}</h5>
           <mapa-cartesiano
             :assertividad="-asertividad"
             :emotividad="-emotividad"
           />
           <p class="badge inline m-23px message mt-1 large-font">
-            Asertividad: {{ -playerAnswers.a + playerAnswers.b }}
+            Assertiveness: {{ -playerAnswers.a + playerAnswers.b }}
           </p>
           <p class="badge inline message mt-1 large-font">
-            Emotividad: {{ -playerAnswers.c + playerAnswers.d }}
+            Responsiveness: {{ -playerAnswers.c + playerAnswers.d }}
           </p>
           <p class="message negrita xx-large-font">
             {{ estilos[playerStyle].the_most }}
@@ -36,7 +35,7 @@
             {{ estilos[playerStyle].under_pressure }}
           </p>
           <p class="message negrita xx-large-font bold">
-            Cosas que puedes mejorar
+            Things to improve:
           </p>
           <p
             v-for="a_mejorar in estilos[playerStyle].should_work_on"
@@ -46,21 +45,21 @@
             ⫸ {{ a_mejorar }}
           </p>
           <p class="message negrita xx-large-font bold">
-            Tiempo usado: {{ tiempo_tomado }}
+            Time used: {{ tiempo_tomado }}
           </p>
-          <p class="message mt-1 fsize-large">¡Volver a intentar!</p>
+          <p class="message mt-1 fsize-large">Try again!</p>
         </section>
         <!-- <p class="message">
           ¡En tal sólo 5 minutos podrás saber a cuál estilo perteneces!
         </p> -->
         <form class="questions-form" @submit.prevent="startTest">
-          <h4 class="mb-0" for="name">Nombre:</h4>
+          <h4 class="mb-0" for="name">Name:</h4>
           <input
             v-model="nombre_jugador"
             id="name"
             name="name"
             type="text"
-            placeholder="Fulanito Perez"
+            placeholder="Charles Bukowski"
             required
             autocomplete="off"
             autofocus
@@ -71,7 +70,7 @@
             type="submit"
             name="action"
           >
-            ¡Empieza ya!
+            Let's start!
             <i class="material-icons right">send</i>
           </button>
           <div class="mt-1">
@@ -79,12 +78,12 @@
           </div>
           <div>
             <small
-              >* Al iniciar el test aceptas la
+              >* When pressing -Let's Start- you accept the
               <span
                 class="underlined"
-                title="Recopilaremos nombre y puntaje para la estadística."
+                title="We might take the name and score for statistics purposes."
               >
-                politica de privacidad.
+                privacy policy.
               </span>
             </small>
           </div>
@@ -224,10 +223,10 @@ export default {
       };
 
       const tiempos = [];
-      if (days) tiempos.push(singularOrPlural(days, "día"));
-      if (hours) tiempos.push(singularOrPlural(hours, "hora"));
-      if (mins) tiempos.push(singularOrPlural(mins, "minuto"));
-      if (seconds) tiempos.push(singularOrPlural(seconds, "segundo"));
+      if (days) tiempos.push(singularOrPlural(days, "day"));
+      if (hours) tiempos.push(singularOrPlural(hours, "hour"));
+      if (mins) tiempos.push(singularOrPlural(mins, "minute"));
+      if (seconds) tiempos.push(singularOrPlural(seconds, "second"));
 
       let res = tiempos.join(", ") + ".";
 
@@ -262,11 +261,11 @@ export default {
       let playerStyle = "";
       asertividad > 0
         ? emotividad > 0
-          ? (playerStyle = "expresivo")
-          : (playerStyle = "emprendedor")
+          ? (playerStyle = "expressive")
+          : (playerStyle = "driver")
         : emotividad > 0
-        ? (playerStyle = "afable")
-        : (playerStyle = "analítico");
+        ? (playerStyle = "amiable")
+        : (playerStyle = "analytical");
       return playerStyle;
     },
     getToken() {

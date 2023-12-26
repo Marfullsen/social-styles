@@ -1,72 +1,72 @@
 {
-  "analítico": {
-    "brief": "Los analíticos, que son típicamente calmos y poco espontáneos, evitan la participación y el compromiso emocional",
-    "the_most": "¡Eres el más perfeccionista de los estilos!",
-    "desc" : "Te interesa hacer lo correcto. Fijas altos estándares, no te sientes molesto de tener que hacer el trabajo de detalle necesario para cumplirlos… y, si es posible, superarlos. Le das atención minuciosamente a todos los aspectos de un proyecto, incluso a esos detalles que a otros podrían resultar insignificantes. Tiendes a ser crítico, orientado a los datos, excelente productor de información.",
-    "tends_to": "¡Tiendes a eludir la tensión!",
-    "under_pressure": "Evitas el contacto, evitas toda situación que implique lidiar con las emociones. Te aíslas, hablas menos de lo habitual; si hablas, tu comunicación es racional, poco empática, lógica… a veces tan poco contemplativa de los aspectos humanos que puedes herir. Tu tono de voz, tus gestos y tu postura revelan “nada”. Se te percibe como ausente de cualquier proceso interpersonal. Si alguno de los estilos de respuesta emotiva alta (afables o expresivos) intenta indagar sobre tus sentimientos, la reacción será la opuesta a la esperada: el analítico se refugiará aun más dentro de sí mismo y evitará aun más el contacto.",
-    "should_work_on": [
-      "El excesivo perfeccionismo, que suele ser la contracara de la excelencia - El exceso de detalle, a veces poco necesario",
-      "La indecisión, a la que puede conducir el exceso de prudencia",
-      "La burocratización, como exceso de la sistematicidad",
-      "La impersonalidad",
-      "incrementar la versatilidad",
-      "Preguntándose por el “valor agregado” y el “valor percibido”",
-      "Fijando metas temporales",
-      "Considerando el tiempo como parte del resultado a lograr",
-      "Agradecer más a menudo"
-    ]
+  "analytical": {
+    "brief": "Analytical people tend to be calm and unspontaneous, avoiding emotional involvement and engagement. They prefer to analyze situations and make decisions based on logic and reason rather than emotions.",
+    "the_most": "You are the most perfectionist of styles!",
+    "desc" : "You are interested in doing the right thing. You set high standards, you are not bothered by having to do the detail work necessary to meet them... and, if possible, exceed them. You give careful attention to all aspects of a project , even to those details that might seem insignificant to others. You tend to be critical, data-oriented, an excellent producer of information.",
+     "tends_to": "You tend to avoid tension!",
+     "under_pressure": "You avoid contact, you avoid any situation that involves dealing with emotions. You isolate yourself, you speak less than usual; if you do speak, your communication is rational, not very empathetic, logical... sometimes so little contemplative of human aspects that you can hurt. Your tone of voice, your gestures and your posture reveal “nothing”. You are perceived as absent from any interpersonal process. If one of the high emotional response styles (affable or expressive) tries to inquire about your feelings, the reaction will be the opposite of what was expected: the analytic will take refuge even more within himself and will avoid contact even more.",
+     "should_work_on": [
+       "Excessive perfectionism, which is usually the opposite side of excellence - Excessive detail, sometimes not necessary",
+       "Indecision, to which excess caution can lead,",
+       "Bureaucratization, as an excess of systematicity",
+       "Impersonality",
+       "increase versatility",
+       "Asking about “added value” and “perceived value”",
+       "Setting temporary goals",
+       "Considering time as part of the result to be achieved",
+       "Give thanks more often"
+     ]
   },
-  "afable": {
-    "brief": "Los afables, que son típicamente cooperativos, consienten",
-    "the_most": "¡Eres el más conciliador y sociable de los estilos!",
-    "desc" : "Tienes una especial preocupación por la armonía. Siempre estás abierto a otros, eres sumamente generoso con su tiempo. Eres un “héroe de perfil bajo” en lo referente a la consolidación de equipos. Prestas cuidada atención a los sentimientos y estados anímicos de los demás, incluso a aquéllos que a otros podrían pasar desapercibidos. Tiendes a ser excelente anfitrión, orientado a la gente y con una enorme capacidad de escucha.",
-    "tends_to": "¡Tiendes a conceder! (a fin de no deteriorar la armonía)",
-    "under_pressure": "Puede que, incluso bajo una fuerte presión, te muestres de acuerdo con los demás; pero algo —los gestos, la mirada, el tono de la voz— revelará una inconsistencia entre las palabras y los otros lenguajes. El afable en situación de estrés parece flexible, aunque bajo su aparente flexibilidad subyace una creencia sumamente rígida: la creencia de que el conflicto destruye, y de que más vale ceder que enfrentarlo. Cuando acepta, su aceptación no responde a un compromiso genuino. Y ese aceptar no genuino puede, a la larga, dar lugar a conductas vindicativas.",
-    "should_work_on": [
-      "La tendencia a evitar el conflicto y guardarse el malestar",
-      "La falta de atención a la tarea por excesiva concentración en la gente",
-      "La tolerancia infinita",
-      "La dependencia para incrementar la versatilidad",
-      "Prepararse antes de una conversación conflictiva. Tener en claro los propios puntos de vista",
-      "“Ensayar” una manera propia de ser más asertivo",
-      "Evitar en lo posible el uso del potencial (“querría”, “me gustaría”)",
-      "Fijarse metas de resultados, tiempos y estándares"
-    ]
+  "amiable": {
+    "brief": "The affable, who are typically cooperative, consent",
+     "the_most": "You are the most conciliatory and sociable of styles!",
+     "desc" : "You have a special concern for harmony. You are always open to others, you are extremely generous with their time. You are a “low-profile hero” when it comes to team building. You pay careful attention to feelings and moods of others, even those that might go unnoticed by others. You tend to be an excellent host, people-oriented and with enormous listening skills.",
+     "tends_to": "You tend to concede! (in order not to deteriorate the harmony)",
+     "under_pressure": "Even under strong pressure, you may agree with others, but something—your gestures, your gaze, your tone of voice—will reveal an inconsistency between the words and other languages. The affable in a situation of stress he seems flexible, although beneath his apparent flexibility lies an extremely rigid belief: the belief that conflict destroys, and that it is better to give in than face it. When he accepts, his acceptance does not respond to a genuine commitment. And that acceptance Non-genuine behavior can, in the long run, lead to vindictive behavior.",
+     "should_work_on": [
+       "The tendency to avoid conflict and keep discomfort to oneself,",
+       "Lack of attention to the task due to excessive concentration on people",
+       "Infinite tolerance",
+       "Dependency to increase versatility",
+       "Prepare before a conflictive conversation. Be clear about your own points of view,",
+       "“Rehearse” your own way of being more assertive",
+       "Avoid as much as possible the use of potential ('I would like', 'I would like to')",
+       "Set goals for results, times and standards"
+     ]
   },
-  "expresivo": {
-    "brief": "Los expresivos, que son usualmente estimulantes, atacan o se “desbordan”",
-    "the_most": "¡Eres el más exuberante de los estilos!",
-    "desc" : "Tu vigor y tu entusiasmo “inyectan” energía a los equipos. Tu informalidad y tu libertad a menudo invitan a los demás a “desestructurarse”. Eres proactivo, impulsivo, se vincula rápida y fácilmente. Eres un “generador natural de sueños”, de nuevas realidades por crear con otros. Tiendes a ser excelente animador, orientado a aprovechar las ocasiones para hacer del trabajo un ámbito de disfrute.",
-    "tends_to": "¡Tiendes a desbordarse! (“contaminando” con tu malestar a los demás)",
-    "under_pressure": "El desborde puede pasar pronto (el expresivo suele ser inestable emocionalmente), pero para entonces los otros se sintieron atacados por su conducta poco respetuosa y puede costar recuperar el vínculo. La respuesta emotiva se vuelve extrema, así como también la asertividad. Por eso el expresivo bajo presión pelea, y no escucha otra cosa que a sí mismo. Se torna “auto-referenciado”,  y cuando el emprendedor o el analítico intentan hacerlo entrar en razón, suele sentirse agraviado asumiendo que los demás no toman en serio las condiciones de presión a las cuales está sometido.",
-    "should_work_on": [
-      "La impaciencia",
-      "La variabilidad de los estados anímicos y su efecto en la tarea",
-      "La subestimación del tiempo que llevan las diferentes tareas",
-      "La dispersión, la imaginación excesiva e impráctica",
-      "para incrementar la versatilidad",
-      "Elaborarse un plan de tareas a cumplir, fechas y tiempo estimado; reservarse tiempo extra",
-      "Monitorear diariamente el cumplimiento del plan",
-      "Involucrar en los planes a personas más prácticas y realistas",
-      "Fijarse metas y prioridades de resultados, tiempos y estándares"
-    ]
+  "expressive": {
+    "brief": "Expressives, which are usually stimulating, attack or “overflow”",
+     "the_most": "You are the most exuberant of styles!",
+     "desc" : "Your vigor and enthusiasm “inject” energy into teams. Your informality and your freedom often invite others to “destructure.” You are proactive, impulsive, you bond quickly and easily. You are a “natural generator.” of dreams, of new realities to create with others. You tend to be an excellent entertainer, oriented to taking advantage of opportunities to make work an area of enjoyment.",
+     "tends_to": "You tend to overflow! (“polluting” others with your discomfort)",
+     "under_pressure": "The overflow may soon pass (the expressive one is usually emotionally unstable), but by then others feel attacked by their disrespectful behavior and it may be difficult to recover the bond. The emotional response becomes extreme, as does the assertiveness. That is why the expressive person under pressure fights, and does not listen to anything other than himself. He becomes 'self-referential', and when the entrepreneur or the analytical person tries to make him see reason, he usually feels aggrieved, assuming that others do not take seriously the pressure conditions to which it is subjected.",
+     "should_work_on": [
+       "Impatience",
+       "The variability of mood states and its effect on the task",
+       "The underestimation of the time that different tasks take",
+       "Dispersion, excessive and impractical imagination",
+       "to increase versatility",
+       "Develop a plan of tasks to be completed, dates and estimated time; reserve extra time",
+       "Monitor daily compliance with the plan",
+       "Involve more practical and realistic people in the plans",
+       "Set goals and priorities for results, times and standards"
+     ]
   },
-  "emprendedor": {
-    "brief": "Los emprendedores, que por lo general son directivos, se vuelven autoritarios",
-    "the_most": "¡Eres el más pragmático de los estilos!",
-    "desc" : "Tienes una especial preocupación por el resultado. Tu realismo y capacidad de centrar el foco imprimen un claro sentido de dirección a la tarea. Eres sumamente orientado a la acción, eres un luchador que no se deja vencer por la adversidad. Eres proactivo, específico, seguro. Tiendes a ser excelente administrador del tiempo, especialmente apto en la fijación de prioridades.",
-    "tends_to": "¡Tiendes a controlar en exceso! (prescindiendo del criterio y las decisiones de los demás)",
-    "under_pressure": "Tus objetivos deben ser cumplidos, con tus parámetros, en tus tiempos y a tu manera. te cierras, no admites contradicciones, todo parece transformarse en un recurso para los propósitos que ya tienes delineados. La reflexión del analítico te resulta una pérdida de tiempo, la empatía del integrador te resulta una blandura poco compatible con la urgencia, y la espontaneidad del expresivo te resulta inconducente y fuera de contexto. Quizás el emprendedor bajo presión sea, de todos los estilos, el que más tiende a la “mismidad”; con su conducta parecería decir que “para un emprendedor no hay nada mejor que otro emprendedor”.",
-    "should_work_on": [
-      "La extrema independencia (que puede atentar contra el equipo)",
-      "La impersonalidad",
-      "La agresividad, el autoritarismo",
-      "La visión cortoplacista sin horizonte",
-      "para incrementar la versatilidad",
-      "Poner cuidado en el escuchar",
-      "Pedir opinión",
-      "Involucrar en los planes a personas de criterio diferente; evitar el dogmatismo"
-    ]
+  "driver": {
+    "brief": "Drivers or also called Entrepreneurs, who are generally managers, become authoritarian",
+     "the_most": "You are the most pragmatic of styles!",
+     "desc" : "You have a special concern for the result. Your realism and ability to focus give a clear sense of direction to the task. You are extremely action-oriented, you are a fighter who does not let himself be defeated by adversity. You are proactive, specific, confident. You tend to be excellent time managers, especially adept at setting priorities.",
+     "tends_to": "You tend to control excessively! (regardless of the judgment and decisions of others)",
+     "under_pressure": "Your objectives must be met, with your parameters, in your time and in your own way. You close yourself off, you do not admit contradictions, everything seems to be transformed into a resource for the purposes that you have already outlined. The analysis's reflection is a waste of time, the empathy of the integrator seems to be a softness that is not compatible with the urgency, and the spontaneity of the expressive seems inappropriate and out of context. Perhaps the entrepreneur under pressure is, of all styles, the one that most tends to 'sameness'; with his behavior he would seem to say that “for an entrepreneur there is nothing better than another entrepreneur.”",
+     "should_work_on": [
+       "The extreme independence (which can threaten the team)",
+       "Impersonality",
+       "Aggressiveness, authoritarianism",
+       "The short-term vision without horizon",
+       "to increase versatility",
+       "Be careful when listening",
+       "Ask for opinion",
+       "Involve people with different criteria in the plans; avoid dogmatism"
+     ]
   }
 }
