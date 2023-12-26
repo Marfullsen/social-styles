@@ -3,7 +3,7 @@
     <section>
       <article class="welcomePage" v-if="welcomeScreen">
         <section v-if="!resultsScreen">
-          <h1 class="mb-0">¡Conoce tu Estilo Social!</h1>
+          <h1 class="mb-0">Know your Social Style!</h1>
           <p class="message mt-1 fsize-large">
             <span title="Integrador"> Afable </span> -
             <span title="Propulsor"> Emprendedor </span> - Analítico - Expresivo
