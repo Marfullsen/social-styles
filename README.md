@@ -134,6 +134,7 @@ When moving to the production phase, it is recommended to **create a file called
 
 ## 🎉 References <a name = "acknowledgement"></a>
 
+- [The Social Styles model](https://www.bitesizelearning.co.uk/resources/how-social-styles-can-help-you-to-achieve-your-communication-goals)
 - [Repo "Test Estilos Sociales" (Spanish version)](https://github.com/Marfullsen/estilos-sociales)
 - [Test in spanish](https://marfullsen.github.io/estilos-sociales/)
 - [Materialize CSS](https://materializecss.com/)
