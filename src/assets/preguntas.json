@@ -1,92 +1,92 @@
 {
   "1": {
-    "title": "Al formular una opinión",
-    "a": "Mantengo el cuerpo inclinado hacia atrás.",
-    "b": "Mantengo el cuerpo erguido o inclinado hacia delante al expresarme."
+    "title": "When formulating an opinion",
+    "a": "I keep my body leaning back.",
+    "b": "I keep my body upright or leaning forward when expressing myself."
   },
   "2": {
-    "title": "Al hablar",
-    "a": "No uso demasiado las manos cuando hablo.",
-    "b": "Suelo usar las manos cuando hablo."
+    "title": "When speaking",
+    "a": "I don't use my hands much when I talk.",
+    "b": "I usually use my hands when I talk."
   },
   "3": {
-    "title": "Muestro una energía",
-    "a": "Mesurada, dosificada.",
-    "b": "Explícita, desbordante."
+    "title": "I show an energy",
+    "a": "Measured, dosed.",
+    "b": "Explicit, overflowing."
   },
   "4": {
-    "title": "Mi lenguaje Corporal",
-    "a": "Es controlado.",
-    "b": "Es libre y elocuente."
+    "title": "My Body Language",
+    "a": "It is controlled.",
+    "b": "He is free and eloquent."
   },
   "5": {
-    "title": "Uso gestos fuertes",
-    "a": "Es poco frecuente que utilice gestos fuertes, terminantes",
-    "b": "Con frecuencia utilizo gestos fuertes, terminantes."
+    "title": "I use strong gestures",
+    "a": "It is rare that he uses strong, definitive gestures",
+    "b": "I frequently use strong, definitive gestures."
   },
   "6": {
-    "title": "Las expresiones de mi cara",
-    "a": "No siempre expresan lo que siento.",
-    "b": "Me “delatan”."
+    "title": "The expressions on my face",
+    "a": "They don't always express what I feel.",
+    "b": "They “give me away.”"
   },
   "7": {
-    "title": "Suelo hablar",
-    "a": "En voz baja.",
-    "b": "en voz alta."
+    "title": "I usually talk",
+    "a": "In a low voice.",
+    "b": "out loud."
   },
   "8": {
-    "title": "Aparento",
-    "a": "Seriedad, circunspección.",
-    "b": "Una habitual disposición a divertirme y pasarla bien."
+    "title": "I appear",
+    "a": "Seriousness, circumspection.",
+    "b": "A habitual disposition to have fun and have a good time."
   },
   "9": {
-    "title": "Tiendo a",
-    "a": "Preguntar con mayor frecuencia que a enunciar.",
-    "b": "Enunciar con mayor frecuencia que a preguntar."
+    "title": "I tend to",
+    "a": "Ask more frequently than state.",
+    "b": "State more frequently than ask."
   },
   "10": {
-    "title": "Utilizo",
-    "a": "Un rango reducido de inflexiones de voz.",
-    "b": "Muchas y muy diversas inflexiones de voz."
+    "title": "I use",
+    "a": "A reduced range of voice inflections.",
+    "b": "Many and very diverse voice inflections."
   },
-  "11": {
-    "title": "En situaciones donde no actúan",
-    "a": "No me surge la tendencia a presionar a otros para que actúen.",
-    "b": "Me surge la tendencia a presionar a otros para que actúen."
+  "eleven": {
+    "title": "In situations where they do not act",
+    "a": "I don't have a tendency to pressure others to act.",
+    "b": "I have a tendency to pressure others to act."
   },
   "12": {
-    "title": "Con mis sentimientos o emociones",
-    "a": "No tiendo a mostrar sentimientos espontáneamente.",
-    "b": "Tiendo a mostrar sentimientos espontáneamente."
+    "title": "With my feelings or emotions",
+    "a": "I don't tend to show feelings spontaneously.",
+    "b": "I tend to show feelings spontaneously."
   },
   "13": {
-    "title": "Expreso opiniones",
-    "a": "De forma tentativa, reflexiva.",
-    "b": "De forma taxativa, contundente."
+    "title": "I express opinions",
+    "a": "Tentatively, reflectively.",
+    "b": "Expressively, forcefully."
   },
   "14": {
-    "title": "Mis conversaciones son",
-    "a": "Principalmente orientadas a la tarea.",
-    "b": "Son orientadas a la gente."
+    "title": "My conversations are",
+    "a": "Mainly task-oriented.",
+    "b": "They are people-oriented."
   },
-  "15": {
-    "title": "Tiendo a resolver",
-    "a": "Situaciones pausadamente.",
-    "b": "Situaciones rápidamente."
+  "fifteen": {
+    "title": "I tend to solve",
+    "a": "Situations slowly.",
+    "b": "Situations quickly."
   },
   "16": {
-    "title": "Me oriento",
-    "a": "Más a los hechos y a la lógica.",
-    "b": "Más a los sentimientos y a las opiniones."
+    "title": "I get my bearings",
+    "a": "More to facts and logic.",
+    "b": "More to feelings and opinions."
   },
   "17": {
-    "title": "Mi ritmo natural es",
-    "a": "Calmo, “paso a paso”.",
-    "b": "Acelerado, quizás ansioso."
+    "title": "My natural rhythm is",
+    "a": "Calm down, “step by step.”",
+    "b": "Hectic, perhaps anxious."
   },
   "18": {
-    "title": "Con mis anécdotas",
-    "a": "Es raro que cuente anécdotas o intervenga en charlas casuales.",
-    "b": "Suelo contar anécdotas e intervenir en charlas casuales."
+    "title": "With my anecdotes",
+    "a": "It is rare that he tells anecdotes or participates in casual conversations.",
+    "b": "I usually tell anecdotes and participate in casual conversations."
   }
 }
