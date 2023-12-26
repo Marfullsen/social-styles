@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <section class="mw-800">
-      <h1>Bibliografía</h1>
+      <h3>References</h3>
       <p>
         Bolton, Robert & Grover Bolton, Dorothy. (1996) People styles at work.
         Amazom. New York, USA. (nombre en español “No hay personas dificiles”)
@@ -29,7 +29,7 @@
 
 <style scoped>
 p {
-  font-size: x-large !important;
+  font-size: large !important;
 }
 
 .about {
