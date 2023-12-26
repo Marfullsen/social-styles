@@ -1,31 +1,108 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <router-view/>
-  <!-- <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <div id="nav">
+    <article class="w-50 evenly">
+      <router-link to="/">
+        <i class="medio material-icons">home</i>
+      </router-link>
+      <router-link to="/score">
+        <i class="medio material-icons">equalizer</i>
+      </router-link>
+      <router-link to="/about">
+        <i class="medio material-icons">help_outline</i>
+      </router-link>
+    </article>
   </div>
-  <HelloWorld msg="Vite + Vue" /> -->
+  <router-view class="whiteFrame" />
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+<style>
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  background-color: #34a8ff;
+  background: repeating-linear-gradient(
+    135deg,
+    rgb(  0, 218, 255),
+    rgb(0, 195, 255) 10px,
+    rgb(0, 176, 230) 10px,
+    rgb(6, 177, 245) calc(3 * 10px)
+  );
+  height: 100vh;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+.whiteFrame {
+  font-family: "Architects Daughter";
+  background: white;
+  border: solid 5px skyblue;
+  border-radius: 10px;
+  margin-top: 0;
 }
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.medio {
+  font-size: 3rem;
+}
+
+.w-50 {
+  width: 15em;
+}
+
+.evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#nav {
+  height: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#nav a.router-link-exact-active {
+  color: white;
+}
+
+@media (min-width: 624px) {
+  .whiteFrame {
+    margin: 1em;
+  }
+}
+
+@media (min-width: 724px) {
+  .whiteFrame {
+    margin: 2em;
+  }
+}
+
+@media (min-width: 824px) {
+  .whiteFrame {
+    margin: 3em;
+  }
+}
+
+@media (min-width: 924px) {
+  .whiteFrame {
+    margin: 4em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .whiteFrame {
+    margin: 5em;
+  }
 }
 </style>
