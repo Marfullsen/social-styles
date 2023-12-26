@@ -36,7 +36,7 @@ body {
   background: white;
   border: solid 5px skyblue;
   border-radius: 10px;
-  margin-top: 0;
+  margin-top: 0!important;
 }
 
 #app {
