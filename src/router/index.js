@@ -19,10 +19,14 @@ const routes = [
     name: "ScorePage",
     component: ScorePage,
   },
+  {
+    path: '/:pathMatch(.*)*',
+    component: WelcomePage,
+  }
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes,
 });
 
