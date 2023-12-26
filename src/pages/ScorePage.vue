@@ -1,6 +1,6 @@
 <template>
   <div class="settings">
-    <h1>Últimos resultados</h1>
+    <!-- <h1>Últimos resultados</h1>  -->
     <div class="m-1 mb-2">
       <score-board />
     </div>
