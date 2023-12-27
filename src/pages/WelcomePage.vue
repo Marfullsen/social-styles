@@ -1,7 +1,7 @@
 <template>
   <div>
     <section>
-      <article class="welcomePage" v-if="welcomeScreen">
+      <article class="welcomePage mx-6" v-if="welcomeScreen">
         <section v-if="!resultsScreen">
           <h1 class="mb-0">Know your Social Style!</h1>
           <p class="message mt-1 fsize-large">

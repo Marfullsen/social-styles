@@ -31,6 +31,11 @@ body {
   height: 100vh;
 }
 
+.mx-6	{
+  margin-left: 1.5rem; /* 24px */
+  margin-right: 1.5rem; /* 24px */
+}
+
 .whiteFrame {
   font-family: "Architects Daughter";
   background: white;
