@@ -118,15 +118,8 @@ When moving to the production phase, it is recommended to **create a file called
 ## ⛏️ Built using <a name = "built_using"></a>
 
 - [Vue.js](https://vuejs.org/) - JavaScript Framework for FrontEnd.
-- [Vite](https://vitejs.dev/) - Local development server for FrontEnt.
+- [Vite](https://vitejs.dev/) - Local development server for FrontEnd.
 
-
-## Mockups
-
-<p align="center">
-  <a href="https://marfullsen.github.io/social-styles/" rel="noopener">
- <img src="./docs/img/mockup-estilos-sociales.png" alt="Mockup_1"></a>
-</p>
 
 ## ✍️ Author <a name = "authors"></a>
 
