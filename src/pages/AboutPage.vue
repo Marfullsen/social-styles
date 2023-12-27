@@ -19,7 +19,7 @@
         Barcelona, España
       </p>
       <p class="message">
-        <a href="https://github.com/Marfullsen/estilos-sociales"
+        <a href="https://github.com/Marfullsen/social-styles"
           >Fork on github<i class="small material-icons">web</i></a
         >
       </p>
