@@ -30,11 +30,11 @@
 
 - [What is the social style test?](#about)
 - [Getting started!](#getting_started)
-- [Fase de producción](#deployment)
-- [ejecución](#usage)
-- [Tecnologías usadas](#built_using)
-- [Autores](#authors)
-- [Referencias](#acknowledgement)
+- [Deployment](#deployment)
+- [Usage](#usage)
+- [Built Using](#built_using)
+- [Authors](#authors)
+- [References](#acknowledgement)
 
 ## 🧐 What is the social style test? <a name = "about"></a>
 
