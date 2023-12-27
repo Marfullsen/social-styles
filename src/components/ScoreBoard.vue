@@ -113,7 +113,13 @@ export default {
       .then((data) => {
         this.puntajes = data;
       })
-      .catch((error) => console.error(error));
+      .catch((error) => {
+        console.error(error);
+        const puntajes_raw = localStorage.getItem("puntajes");
+        if (puntajes_raw != null) {
+          this.puntajes = JSON.parse(puntajes_raw)
+        }
+      });
   },
 };
 </script>

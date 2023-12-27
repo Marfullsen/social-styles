@@ -276,7 +276,8 @@ export default {
         .then((response) => response.json())
         .then((data) => {
           this.token = data.key;
-        });
+        })
+        .catch(() => this.token = "_");
     },
     sendScore() {
       const url = "https://proto-api2.herokuapp.com/api/paciente/nuevo/";
@@ -296,7 +297,36 @@ export default {
       fetch(url, options)
         .then((response) => response.json())
         .then((data) => {
-          console.log(data);
+          //console.log(data);
+        })
+        .catch((error) => {
+          // Versión interna (local) en caso de fallar la conexión a internet.
+
+          // Lee los puntajes del navegador.
+          const puntajes_raw = localStorage.getItem("puntajes");
+          const fecha_exacta = new Date().toISOString()
+          let puntajes = []
+          let count = 0
+
+          // si hay algo, se parsea y se toma el último ID, que es el primer elemento.
+          // sino, se crea un nuevo array de puntajesm y el ID será cero.
+          if (puntajes_raw != null) {
+            puntajes = JSON.parse(puntajes_raw)
+            count = puntajes[0].id + 1
+          }
+
+          puntajes = [
+            {
+              id: count,
+              fecha_tested: fecha_exacta,
+              nombre: this.nombre_jugador,
+              asertividad: this.asertividad,
+              emotividad: this.emotividad
+            },
+            ...puntajes
+          ]
+          let puntajes_str = JSON.stringify(puntajes)
+          localStorage.setItem("puntajes", puntajes_str);
         });
     },
   },
