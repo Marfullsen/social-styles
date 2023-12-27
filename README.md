@@ -88,7 +88,7 @@ pnpm install
 ## Further info
 ### Score
 
-The scoring system was implemented through an external server, to display real data it must be configured manually, otherwise the system will display a fixed table with fictitious results.
+The scoring system was implemented through an external server, to display real data it must be configured manually, otherwise the system will display a fixed table with fixed results. When the conection to the server is not working, the app will save all the data in the local storage.
 
 <p align="center">
   <a href="https://marfullsen.github.io/social-styles/score" rel="noopener">
